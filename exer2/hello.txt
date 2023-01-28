@@ -1,1 +1,2 @@
 hello! i used "nano hello.txt" to edit the txt file from the terminal.
+You can also use echo text >> hello.txt
