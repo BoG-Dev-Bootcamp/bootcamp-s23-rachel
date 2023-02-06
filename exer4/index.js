@@ -5,8 +5,6 @@ const { textSync } = figlet;
 
 const num = Math.floor(Math.random()*1008 + 1);
 const link = "https://pokeapi.co/api/v2/pokemon/";
-const url = link.concat(num.toString());
-console.log(url);
 axios.get(link.concat(num.toString()))
     .then(function (response) {
         let name = response.data.name;
